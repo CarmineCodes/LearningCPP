@@ -26,6 +26,7 @@ int main()
 
 	cout << "Please enter another number: \n";
 	
+	//while loop to validate user input is an integer
 	while (!(cin >> num2))
 	{
 		cout << "Incorrect input, please enter a valid integet!" << '\n';
@@ -35,15 +36,15 @@ int main()
 
 	cout << "You entered: " << num1 << " and " << num2 << "\n";
 	
+	//these lines do simple math between num1 and 2
 	cout << "Num1 + Num2 = " << num1 + num2 << "\n";
 	cout << "Num1 - Num2 = " << num1 - num2 << "\n";
 	cout << "Num1 x Num2 = " << num1 * num2 << "\n";
 	cout << "Num1 / Num2 = " << num1 / num2 << "\n";
 	cout << "Num1 % Num2 = " << num1 % num2 << "\n";
-	//cout << "Num1 plus 1 = " << ++num1 << +"\n";
-	//cout << "Num2 plus 1 = " << ++num2  << +"\n";
 
-	num3 = num1 + 1;
+	//these lines add 1 to num1 and 2
+		num3 = num1 + 1;
 	cout << "Num1 plus 1 = " << num3 << '\n';
 	num3 = 0;
 	num3 = num2 + 1;
